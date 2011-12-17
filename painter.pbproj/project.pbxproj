@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 34;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/drew/painter\ -f\ \'painter.pbproj/qt_makeqmake.mak\'";
+		};
+		118FCBAABA162BA17933C789 = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "main.cpp";
+			refType = 4;
+		};
+		2B093CA6F071B023A473CED0 = {
+			fileRef = "118FCBAABA162BA17933C789";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EA177DE95BF7D3EF58EE43F7 = {
+			isa = PBXFileReference;
+			name = "mainwindow.cpp";
+			path = "mainwindow.cpp";
+			refType = 4;
+		};
+		462C0F34BBEF2375A9469BB5 = {
+			fileRef = "EA177DE95BF7D3EF58EE43F7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CED59E08B2AB8CD938656E7F = {
+			isa = PBXFileReference;
+			name = "drawwidget.cpp";
+			path = "drawwidget.cpp";
+			refType = 4;
+		};
+		39A84A6F20E4575848BA7E69 = {
+			fileRef = "CED59E08B2AB8CD938656E7F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		336D3C48DD3B44974395C633 = {
+			isa = PBXFileReference;
+			name = "moc_mainwindow.cpp";
+			path = "moc_mainwindow.cpp";
+			refType = 4;
+		};
+		26C2BED6C570C95F5243C556 = {
+			fileRef = "336D3C48DD3B44974395C633";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		54F7B2E2CBBDA902E13AF77D = {
+			isa = PBXFileReference;
+			name = "moc_drawwidget.cpp";
+			path = "moc_drawwidget.cpp";
+			refType = 4;
+		};
+		AEFBCE38EA21970C02537E9E = {
+			fileRef = "54F7B2E2CBBDA902E13AF77D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AFB98B37FF0012B837A2131C = {
+			isa = PBXFileReference;
+			name = "ui_mainwindow.h";
+			path = "ui_mainwindow.h";
+			refType = 4;
+		};
+		F7C8DB5D759DD729133203BE = {
+			isa = PBXFileReference;
+			name = "ui_drawwidget.h";
+			path = "ui_drawwidget.h";
+			refType = 4;
+		};
+		C63FA392C61F27B1B13369C1 = {
+			isa = PBXFileReference;
+			name = "mainwindow.h";
+			path = "mainwindow.h";
+			refType = 4;
+		};
+		7904B23138D175F748A2DFAB = {
+			isa = PBXFileReference;
+			name = "drawwidget.h";
+			path = "drawwidget.h";
+			refType = 4;
+		};
+		B13FF1039A7DBED87FCB51AC = {
+			isa = PBXFileReference;
+			name = "painter.pro";
+			path = "painter.pro";
+			refType = 4;
+		};
+		AB241F823D3821A41AAC4BDE = {
+			isa = PBXFileReference;
+			name = "mainwindow.ui";
+			path = "mainwindow.ui";
+			refType = 4;
+		};
+		A5DB83BD78FE4205FDAD3FC5 = {
+			fileRef = "AB241F823D3821A41AAC4BDE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E8E746AFFD7C88B2284EAE33 = {
+			isa = PBXFileReference;
+			name = "drawwidget.ui";
+			path = "drawwidget.ui";
+			refType = 4;
+		};
+		98C14A9A753418D7F4EB4DC1 = {
+			fileRef = "E8E746AFFD7C88B2284EAE33";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"C63FA392C61F27B1B13369C1",
+				"7904B23138D175F748A2DFAB");
+			name = "Headers";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"118FCBAABA162BA17933C789",
+				"EA177DE95BF7D3EF58EE43F7",
+				"CED59E08B2AB8CD938656E7F");
+			name = "Sources";
+			refType = 4;
+		};
+		EEC299C65D5017EB9DD513B0 = {
+			isa = PBXGroup;
+			children = (
+				"AB241F823D3821A41AAC4BDE",
+				"E8E746AFFD7C88B2284EAE33");
+			name = "Sources [UIC]";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"B13FF1039A7DBED87FCB51AC");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		46E892BBB6BB6952967E0561 = {
+			isa = PBXGroup;
+			children = (
+				"336D3C48DD3B44974395C633",
+				"54F7B2E2CBBDA902E13AF77D",
+				"AFB98B37FF0012B837A2131C",
+				"F7C8DB5D759DD729133203BE");
+			name = "Temporary Sources";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"2B093CA6F071B023A473CED0",
+				"462C0F34BBEF2375A9469BB5",
+				"39A84A6F20E4575848BA7E69",
+				"26C2BED6C570C95F5243C556",
+				"AEFBCE38EA21970C02537E9E");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"2B093CA6F071B023A473CED0",
+				"462C0F34BBEF2375A9469BB5",
+				"39A84A6F20E4575848BA7E69",
+				"26C2BED6C570C95F5243C556",
+				"AEFBCE38EA21970C02537E9E");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/drew/painter\ -f\ \'painter.pbproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"2B093CA6F071B023A473CED0",
+				"462C0F34BBEF2375A9469BB5",
+				"39A84A6F20E4575848BA7E69",
+				"26C2BED6C570C95F5243C556",
+				"AEFBCE38EA21970C02537E9E");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"9B36DA7E32F0304E780E7972",
+				"7BC2E65A5E699A5E5D834CA2");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"501667F26B3C1FF6767A7C12",
+				"069D05B0128AE5DC7EE31738");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		F6069D5A5DA8AA28EDB8B3C6 = {
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			dstPath = "/Users/drew/painter";
+			dstSubfolderSpec = 0;
+			files = (
+"07E0DFA73EB56DCB9E28CDD9");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E0DFA73EB56DCB9E28CDD9 = {
+			fileRef = "842CCDE754F9CB66A176193E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"46E892BBB6BB6952967E0561",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"EEC299C65D5017EB9DD513B0",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "painter";
+			path = "";
+			refType = 4;
+		};
+		842CCDE754F9CB66A176193E = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "painter.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"842CCDE754F9CB66A176193E");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		0841FC152CFAA4A161777B59 = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"F6069D5A5DA8AA28EDB8B3C6",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/usr/include",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.7/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks");
+				OPTIMIZATION_CFLAGS = (
+					);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/drew/painter";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				WRAPPER_SUFFIX = "app";
+				PRODUCT_NAME = "painter";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "842CCDE754F9CB66A176193E";
+			shouldUseHeadermap = 1;
+			isa = PBXApplicationTarget;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>painter</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.painter</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "painter";
+			productName = "painter";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		8D0921A599A626D1569D9498 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			isa = "PBXBuildStyle";
+			name = "Development";
+		};
+		4CFAD8B741C7FF5A47E1CF98 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			isa = "PBXBuildStyle";
+			name = "Deployment";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"8D0921A599A626D1569D9498");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			projectDirPath = "";
+			targets = (
+				"0841FC152CFAA4A161777B59");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
